@@ -11,12 +11,18 @@ public class MoveCharctor : MonoBehaviour
     //移動速度
     private const float SPEED = 0.1f;
 
+	void Start()
+	{
+
+	}
+
     private void Update()
     {
         Vector3 pos = transform.position;
 
         float h = _joystick.Position.x;
         float v = _joystick.Position.y;
+
 
         if (h != 0 || v != 0){
 			var direction = new Vector3(h, 0, v);

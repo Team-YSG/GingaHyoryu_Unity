@@ -7,8 +7,13 @@ public class BackgroundController : MonoBehaviour {
 	public float speed;
 	float size = 100;  //NOTE!
 
-	// Update is called once per frame
-	void Update()
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
 	{
 		transform.Translate(0, 0, speed);
 

@@ -21,14 +21,17 @@ public class LookAt : MonoBehaviour
     public float h = 0;
     public float v = 0;
 
+	void Start()
+	{
+
+	}
+
 	void Update()
 	{
 		h = joystick.Position.x;
 		v = joystick.Position.y;
         if (Input.GetMouseButtonUp(0)){
-            if((h == 0 && v == 0) || 
-                (h > 0.3 && h < -0.3 || 
-                  v > 0.3 && v < -0.3)) {
+            if((h == 0 && v == 0)) {
 				// カメラとマウスの位置を元にRayを準備
 				var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -39,7 +42,7 @@ public class LookAt : MonoBehaviour
 					// 距離を元に交点を算出して、交点の方を向く
 					var lookPoint = ray.GetPoint(distance);
 					transform.LookAt(lookPoint);
-					Shot();
+					// Shot();
 				}
             }	
         }
