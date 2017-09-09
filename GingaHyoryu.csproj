@@ -122,12 +122,16 @@
     <Compile Include="Assets\source\BackgroundController.cs" />
     <Compile Include="Assets\source\Bullett.cs" />
     <Compile Include="Assets\source\changeScale.cs" />
+    <Compile Include="Assets\source\CollisionArm.cs" />
+    <Compile Include="Assets\source\GameSystem.cs" />
     <Compile Include="Assets\source\Joystick\Joystick.cs" />
     <Compile Include="Assets\source\Joystick\MoveCharctor.cs" />
     <Compile Include="Assets\source\Joystick\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\source\Joystick\TouchEventHandler.cs" />
     <Compile Include="Assets\source\LookAt.cs" />
     <Compile Include="Assets\source\MoveArm.cs" />
+    <Compile Include="Assets\source\MoveCube.cs" />
+    <Compile Include="Assets\source\MoveDummy.cs" />
     <Compile Include="Assets\source\Shooting.cs" />
   </ItemGroup>
   <ItemGroup>

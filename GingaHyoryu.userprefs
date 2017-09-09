@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{F995A620-8A86-694E-B616-189C049A72C1}|">
   <MonoDevelop.Ide.ItemProperties.GingaHyoryu PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/source/BackgroundController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/source/MoveDummy.cs">
     <Files>
-      <File FileName="Assets/source/BackgroundController.cs" Line="15" Column="44" />
+      <File FileName="Assets/source/BackgroundController.cs" Line="10" Column="5" />
       <File FileName="../Documents/:Users:yyoshinori:GingaHyoryu:Assets:source:JoyStickEditer.cs" Line="66" Column="55" />
       <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" Line="25" Column="44" />
       <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" Line="1" Column="1" />
@@ -11,14 +11,17 @@
       <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MoveMobile.cs" Line="42" Column="65" />
       <File FileName="Assets/source/Joystick/TouchEventHandler.cs" Line="197" Column="59" />
       <File FileName="Assets/source/Joystick/SingletonMonoBehaviour.cs" Line="52" Column="4" />
-      <File FileName="Assets/source/Joystick/JoystickEditor/JoystickEditor.cs" Line="19" Column="47" />
       <File FileName="Assets/source/Joystick/Joystick.cs" Line="19" Column="18" />
-      <File FileName="Assets/source/Joystick/MoveCharctor.cs" Line="20" Column="9" />
+      <File FileName="Assets/source/Joystick/MoveCharctor.cs" Line="26" Column="41" />
       <File FileName="Assets/source/Shooting.cs" Line="32" Column="53" />
-      <File FileName="Assets/source/LookAt.cs" Line="28" Column="39" />
+      <File FileName="Assets/source/LookAt.cs" Line="34" Column="23" />
       <File FileName="Assets/source/Bullett.cs" Line="19" Column="3" />
       <File FileName="Assets/source/changeScale.cs" Line="16" Column="51" />
-      <File FileName="Assets/source/MoveArm.cs" Line="31" Column="22" />
+      <File FileName="Assets/source/MoveArm.cs" Line="11" Column="11" />
+      <File FileName="Assets/source/CollisionArm.cs" Line="20" Column="3" />
+      <File FileName="Assets/source/MoveCube.cs" Line="31" Column="35" />
+      <File FileName="Assets/source/MoveDummy.cs" Line="29" Column="36" />
+      <File FileName="Assets/source/GameSystem.cs" Line="28" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -145,4 +145,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 b11a1e397d7daac2ef59adb0deb76f16 Assembly-CSharp.dll:.changeScale
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.BackgroundController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveArm
+3658875195ac174da3044ec3c610254a Assembly-CSharp.dll:.MoveArm
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CollisionArm
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveCube
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveDummy
+9f2f4b3ab21915f74c84b1a13101e2e4 Assembly-CSharp.dll:.GameSystem

@@ -20,18 +20,21 @@ public class LookAt : MonoBehaviour
     public Joystick joystick;
     public float h = 0;
     public float v = 0;
+    MoveArm arm;
 
 	void Start()
 	{
-
+        arm = GameObject.Find("Player").GetComponent<MoveArm>();
 	}
 
 	void Update()
 	{
 		h = joystick.Position.x;
 		v = joystick.Position.y;
+        int armStatus;
         if (Input.GetMouseButtonUp(0)){
-            if((h == 0 && v == 0)) {
+            armStatus = arm.getStatus();
+            if((armStatus == 0 || armStatus == 9) && (h == 0 && v == 0)) {
 				// カメラとマウスの位置を元にRayを準備
 				var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 

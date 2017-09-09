@@ -10,10 +10,11 @@ public class MoveCharctor : MonoBehaviour
 
     //移動速度
     private const float SPEED = 0.1f;
+	MoveArm arm;
 
 	void Start()
 	{
-
+        arm = GameObject.Find("Player").GetComponent<MoveArm>();
 	}
 
     private void Update()
@@ -22,9 +23,10 @@ public class MoveCharctor : MonoBehaviour
 
         float h = _joystick.Position.x;
         float v = _joystick.Position.y;
+        int armStatus = arm.getStatus();
 
-
-        if (h != 0 || v != 0){
+        if ((armStatus == 0 || armStatus == 9) && (h != 0 && v != 0))
+		{
 			var direction = new Vector3(h, 0, v);
 			transform.localRotation = Quaternion.LookRotation(direction);
 
